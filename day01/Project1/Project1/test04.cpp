@@ -1,3 +1,7 @@
+// date : 2024-02-21
+// file : test04_if.cpp
+// desc : if
+
 #include <iostream>
 
 int main(void)

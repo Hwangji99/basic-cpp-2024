@@ -1,3 +1,7 @@
+// date : 2024-02-21
+// file : test02.cpp
+// desc : Á¤¼ö
+
 //#include <iostream>
 
 /*

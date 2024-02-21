@@ -1,3 +1,7 @@
+// date : 2024-02-21
+// file : test01.cpp
+// desc : 함수
+
 // #include <iostream> // 헤더파일 선언문 
 
 // 변수 : 무언가를 저장할 수 있는 공간
