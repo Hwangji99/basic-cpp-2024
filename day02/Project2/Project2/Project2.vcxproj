@@ -137,6 +137,14 @@
     <ClCompile Include="test08_NameAlias.cpp" />
     <ClCompile Include="test09.cpp" />
     <ClCompile Include="test10_Point.cpp" />
+    <ClCompile Include="test11_swap.cpp" />
+    <ClCompile Include="test13_Reference.cpp" />
+    <ClCompile Include="test12_swap2.cpp" />
+    <ClCompile Include="test14.cpp" />
+    <ClCompile Include="test15_RefArrElem.cpp" />
+    <ClCompile Include="test16_refswap.cpp" />
+    <ClCompile Include="test17_RefReturn1.cpp" />
+    <ClCompile Include="test18_RefReturn2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

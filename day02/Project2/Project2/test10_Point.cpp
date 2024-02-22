@@ -22,6 +22,6 @@ int main()
 	cout << "pnum1에 저장된 값 : " << pnum1 << endl;
 	cout << "pnum1에 저장된 놈의 데이터 : " << *pnum1 << endl;		// 포인터 변수에 *를 붙이면 저장된 놈의 데이터가 출력된다 ★★★
 																	// *(간접 참조 연산자)
-	return 0;
+	return 0;	
 }
 */
