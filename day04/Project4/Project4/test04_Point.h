@@ -2,7 +2,7 @@
 // file : test04_Point.h
 // desc : Point.h (p.153)
 
-
+/*
 #ifndef __POINT_H_
 #define __POINT_H_
 
@@ -20,3 +20,4 @@ public:
 	bool SetY(int ypos);
 };
 #endif
+*/

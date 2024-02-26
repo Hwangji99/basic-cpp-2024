@@ -1,3 +1,8 @@
+// date : 2024-02-26
+// file : test07_Rectangle.cpp
+// desc : p.156
+
+/*
 #include <iostream>
 #include "test06_Rectangle.h"
 
@@ -22,3 +27,4 @@ void Rectangle::ShowRecInfo() const
 	cout << "©Л го╢э: " << '[' << lowRight.GetX() << ", ";
 	cout << lowRight.GetY() << ']' << endl << endl;
 }
+*/

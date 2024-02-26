@@ -1,3 +1,8 @@
+// date : 2024-02-26
+// file : test08_RecFaultFind.cpp
+// desc : p.157
+
+/*
 #include <iostream>
 #include "test04_Point.h"
 #include "test06_Rectangle.h"
@@ -27,3 +32,4 @@ int main(void)
 	return 0;
 
 }
+*/

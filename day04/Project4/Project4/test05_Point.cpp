@@ -2,7 +2,7 @@
 // file : test05_Point.cpp
 // desc : Point.cpp (p.154)
 
-
+/*
 #include <iostream>
 #include "test04_Point.h"
 
@@ -52,4 +52,4 @@ bool Point::SetY(int ypos)
 	y = ypos;
 	return true;
 }
-
+*/

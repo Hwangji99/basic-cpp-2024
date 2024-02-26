@@ -1,3 +1,8 @@
+// date : 2024-02-26
+// file : test06_Rectangle.h
+// desc : p.156
+
+/*
 #ifndef __RECTANGLE_H_
 #define __RECTANGLE_H_
 
@@ -15,3 +20,4 @@ public:
 };
 #endif // !__RECTANGLE_H_
 
+*/

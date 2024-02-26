@@ -147,7 +147,9 @@
     <ClCompile Include="test12_Car.cpp" />
     <ClCompile Include="test13_RacingMain.cpp" />
     <ClCompile Include="test14_FileDivi.cpp" />
-    <ClCompile Include="test16_FileDivi2.cpp" />
+    <ClCompile Include="test16_FileDivi2.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="test15_FileDivi.h" />

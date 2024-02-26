@@ -133,6 +133,15 @@
     <ClCompile Include="test05_Point.cpp" />
     <ClCompile Include="test07_Rectangle.cpp" />
     <ClCompile Include="test08_RecFaultFind.cpp" />
+    <ClCompile Include="test09_Encapsulation.cpp" />
+    <ClCompile Include="test10_Encapsulation2.cpp" />
+    <ClCompile Include="test11_Construct1.cpp" />
+    <ClCompile Include="test12_Constructor2.cpp" />
+    <ClCompile Include="test13_Constructor3.cpp" />
+    <ClCompile Include="test14_Constructor4.cpp" />
+    <ClCompile Include="test15_MemInital.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="test04_Point.h" />
