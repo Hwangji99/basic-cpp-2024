@@ -135,6 +135,14 @@
     <ClCompile Include="test04_PassObjCpyCon.cpp" />
     <ClCompile Include="test05_RetObjCpyCon.cpp" />
     <ClCompile Include="test06_IKowTempObj.cpp" />
+    <ClCompile Include="test07_RetObjDeadTime.cpp" />
+    <ClCompile Include="test08_ConstObj.cpp" />
+    <ClCompile Include="test09_ConstOverloading.cpp" />
+    <ClCompile Include="test10_MyFriendClass.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="test11_MyFriendFunc.cpp" />
+    <ClCompile Include="test12_Static.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
