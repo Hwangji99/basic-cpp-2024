@@ -88,6 +88,7 @@ IoT 개발자 심화 프로그래밍 언어 학습 리포지토리
 		- const static 멤버
 	- 키워드 mutable
 	- 상속(확장)
+	- protected 선언
 
 ## 9일차
 
