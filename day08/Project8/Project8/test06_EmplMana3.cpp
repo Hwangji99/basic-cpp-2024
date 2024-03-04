@@ -2,6 +2,7 @@
 // file : test06_EmplMana3.cpp
 // desc : p.349
 
+/*
 #include <iostream>
 #include <cstring>
 
@@ -180,3 +181,4 @@ int main(void)
 	handler.ShowTotalSalary();
 	return 0;
 }
+*/

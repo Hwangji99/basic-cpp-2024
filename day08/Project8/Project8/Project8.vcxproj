@@ -133,6 +133,12 @@
     <ClCompile Include="test06_EmplMana3.cpp">
       <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</SDLCheck>
     </ClCompile>
+    <ClCompile Include="test07_TV.cpp" />
+    <ClCompile Include="test08_Virtual.cpp" />
+    <ClCompile Include="test09_VirDestr.cpp" />
+    <ClCompile Include="test10_RefAttri.cpp" />
+    <ClCompile Include="test11_RealObjUnder1.cpp" />
+    <ClCompile Include="test12_RealObjUnder2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

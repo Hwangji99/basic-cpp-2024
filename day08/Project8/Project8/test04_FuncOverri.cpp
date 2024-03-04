@@ -48,7 +48,7 @@ int main(void)
 	sptr->MyFunc();
 	tptr->MyFunc();
 
-	cout << ebdl;
+	cout << endl;
 	tptr->Second::MyFunc();
 
 	delete tptr;
