@@ -39,5 +39,20 @@
     <ClCompile Include="test08_ConsoleOutput.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="test09_IterateConsoleOutput.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test10.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test11_FirOperOverload.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test12_AssignShallowCopyError.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test13.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -135,6 +135,13 @@
     <ClCompile Include="test06_PointMulOper.cpp" />
     <ClCompile Include="test07_CommuMulOper.cpp" />
     <ClCompile Include="test08_ConsoleOutput.cpp" />
+    <ClCompile Include="test09_IterateConsoleOutput.cpp" />
+    <ClCompile Include="test10.cpp" />
+    <ClCompile Include="test11_FirOperOverload.cpp" />
+    <ClCompile Include="test12_AssignShallowCopyError.cpp">
+      <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</SDLCheck>
+    </ClCompile>
+    <ClCompile Include="test13.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

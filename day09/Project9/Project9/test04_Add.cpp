@@ -48,7 +48,7 @@ public:
 		cout << "Operator" << endl;
 	}
 
-	Point operator+(const Point& other) {
+	Point operator+(const Point& other) {						// 함수명을 add로 해도 실행은 되지만 명시적으로 operator+를 사용함으로써 알아보기 쉬움.
 		return Point(x + other.x, y = other.y);
 	}
 
