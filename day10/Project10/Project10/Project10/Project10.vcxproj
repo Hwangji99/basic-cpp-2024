@@ -135,6 +135,13 @@
     <ClCompile Include="test04_Array.cpp" />
     <ClCompile Include="test05_ArrayClass.cpp" />
     <ClCompile Include="test06_NewDelOverload.cpp" />
+    <ClCompile Include="test07_PointerOperOverload.cpp" />
+    <ClCompile Include="test08_SmartPointer.cpp" />
+    <ClCompile Include="test09_SmartPo.cpp" />
+    <ClCompile Include="test10_Functor.cpp" />
+    <ClCompile Include="test11.cpp">
+      <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</SDLCheck>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

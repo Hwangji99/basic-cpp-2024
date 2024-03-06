@@ -2,6 +2,7 @@
 // file : test06_NewDelOverload.cpp
 // desc : p.473
 
+/*
 #include <iostream>
 
 using namespace std;
@@ -42,3 +43,4 @@ int main(void)
 	delete ptr;
 	return 0;
 }
+*/
