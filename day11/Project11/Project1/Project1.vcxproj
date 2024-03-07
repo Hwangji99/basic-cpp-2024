@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ce7e93ab-3cd0-41e1-bc17-f73ca4ca88cd}</ProjectGuid>
-    <RootNamespace>Project10</RootNamespace>
+    <ProjectGuid>{9d6a132e-dbd7-4b58-8762-57db8e1ef8ab}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,22 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="test01_AssShalCpyErr.cpp">
+    <ClCompile Include="test01_ConvToObj.cpp" />
+    <ClCompile Include="test02_ConvToPrimitive.cpp" />
+    <ClCompile Include="test03_STDString.cpp" />
+    <ClCompile Include="test04_String01.cpp" />
+    <ClCompile Include="test05_StringClass.cpp">
       <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</SDLCheck>
     </ClCompile>
-    <ClCompile Include="test02_InherAssOper.cpp" />
-    <ClCompile Include="test03_Improvelnit.cpp" />
-    <ClCompile Include="test04_Array.cpp" />
-    <ClCompile Include="test05_ArrayClass.cpp" />
-    <ClCompile Include="test06_NewDelOverload.cpp" />
-    <ClCompile Include="test07_PointerOperOverload.cpp" />
-    <ClCompile Include="test08_SmartPointer.cpp" />
-    <ClCompile Include="test09_SmartPo.cpp" />
-    <ClCompile Include="test10_Functor.cpp" />
-    <ClCompile Include="test11.cpp">
-      <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</SDLCheck>
-    </ClCompile>
-    <ClCompile Include="test12.cpp" />
+    <ClCompile Include="test06_AddFuncTemple.cpp" />
+    <ClCompile Include="test07_TwoTypeAddFunc.cpp" />
+    <ClCompile Include="test08_PrimitiveFumcTempl.cpp" />
+    <ClCompile Include="test09_NeedSpeFuncTem.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

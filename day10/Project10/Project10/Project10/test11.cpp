@@ -2,85 +2,118 @@
 // file : test11.cpp
 // desc :
 
+/*
 #include <iostream>
 #include <cstring>
-#include <vector>
+
 using namespace std;
 
 class Grade {
 private:
-    char name[50]; // 이름을 저장할 배열 추가
-    int kr;
+    char* name;
+    int kor;
     int math;
-    int english;
+    int eng;
+    int total;
+    double average;
 
 public:
-    Grade() : kr(0), math(0), english(0) {
-        // 생성자에서 초기화
-        name[0] = '\0';
+    // 생성자: 학생의 이름과 세 과목의 점수를 받아 초기화
+    Grade(const char* name, int kor, int math, int eng) {
+        // 이름 복사
+        size_t len = strlen(name) + 1;
+        this->name = new char[len];
+        strcpy_s(this->name, len, name);
+
+
+        this->kor = kor;
+        this->math = math;
+        this->eng = eng;
+
+        // 총점과 평균 계산
+        Total();
+        Average();
     }
 
-    // 사용자로부터 이름과 점수를 입력받는 멤버 함수 추가
-    void input() {
-        cout << "이름을 입력하세요: ";
-        cin.getline(name, sizeof(name));
-        cout << "국어 점수를 입력하세요: ";
-        cin >> kr;
-        cout << "수학 점수를 입력하세요: ";
-        cin >> math;
-        cout << "영어 점수를 입력하세요: ";
-        cin >> english;
-        cin.ignore(); // 버퍼 비우기
+    // 소멸자: 동적으로 할당된 메모리 해제
+    ~Grade() {
+        delete[] name;
     }
 
-    Grade operator+(const Grade& pos) const {
-        return Grade(kr + pos.kr, math + pos.math, english + pos.english);
+    // 총점 계산 함수
+    void Total() {
+        total = kor + math + eng;
     }
 
-    friend ostream& operator<<(ostream& os, const Grade& pos) {
-        os << "이름: " << pos.name << ", 국어: " << pos.kr << ", 수학: " << pos.math << ", 영어: " << pos.english;
-        return os;
+    // 평균 계산 함수
+    void Average() {
+        average = total / 3.0;
     }
 
-    int getKr() const { return kr; }
-    int getMath() const { return math; }
-    int getEnglish() const { return english; }
+    // 이름 반환 함수
+    const char* getName() const {
+        return name;
+    }
+
+    // 국어 점수 반환 함수
+    int getKor() const {
+        return kor;
+    }
+
+    // 수학 점수 반환 함수
+    int getMath() const {
+        return math;
+    }
+
+    // 영어 점수 반환 함수
+    int getEng() const {
+        return eng;
+    }
+
+    // 총점 반환 함수
+    int getTotal() const {
+        return total;
+    }
+
+    // 평균 반환 함수
+    double getAverage() const {
+        return average;
+    }
 };
 
-class Add {
-public:
-    int operator()(const Grade& grade) {
-        return grade.getKr() + grade.getMath() + grade.getEnglish();
+int main() {
+    const int STUDENTS = 5;
+    Grade* gradeAry[STUDENTS];    // 학생 객체를 포인터 배열
+
+
+    for (int i = 0; i < STUDENTS; i++) {
+        char name[20];
+        int inko, inEng, inmath;
+
+        cout << "이름: ";
+        cin >> name;
+        cout << "국어: ";
+        cin >> inko;
+        cout << "수학: ";
+        cin >> inmath;
+        cout << "영어: ";
+        cin >> inEng;
+        cout << endl;
+
+
+        gradeAry[i] = new Grade(name, inko, inmath, inEng);
     }
-};
 
-class Average {
-public:
-    double operator()(const Grade& grade) {
-        return (grade.getKr() + grade.getMath() + grade.getEnglish()) / 3.0;
-    }
-};
-
-int main(void) {
-    vector<Grade> grades;
-
-    // 5명의 정보를 입력받음
-    for (int i = 0; i < 5; ++i) {
-        Grade grade;
-        grade.input();
-        grades.push_back(grade);
+    for (int i = 0; i < STUDENTS; i++) {
+        cout << "이름: " << gradeAry[i]->getName() << endl;
+        cout << "국어: " << gradeAry[i]->getKor() << ", 수학: " << gradeAry[i]->getMath() << ", 영어: " << gradeAry[i]->getEng() << endl;
+        cout << "총점: " << gradeAry[i]->getTotal() << ", 평균: " << gradeAry[i]->getAverage() << endl;  // 각 총점과 평균 출력
+        cout << endl;
     }
 
-    // 총점과 평균 출력
-    Add add;
-    Average average;
-
-    for (const Grade& grade : grades) {
-        cout << grade << endl;
-        cout << "총점: " << add(grade) << "점" << endl;
-        cout << "평균: " << average(grade) << "점" << endl;
-        cout << "-----------------------" << endl;
+    for (int i = 0; i < STUDENTS; i++) {
+        delete gradeAry[i];
     }
 
     return 0;
-}
+*/

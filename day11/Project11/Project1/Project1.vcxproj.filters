@@ -15,40 +15,31 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test01_AssShalCpyErr.cpp">
+    <ClCompile Include="test01_ConvToObj.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test02_InherAssOper.cpp">
+    <ClCompile Include="test02_ConvToPrimitive.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test03_Improvelnit.cpp">
+    <ClCompile Include="test03_STDString.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test04_Array.cpp">
+    <ClCompile Include="test04_String01.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test05_ArrayClass.cpp">
+    <ClCompile Include="test05_StringClass.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test06_NewDelOverload.cpp">
+    <ClCompile Include="test06_AddFuncTemple.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test07_PointerOperOverload.cpp">
+    <ClCompile Include="test07_TwoTypeAddFunc.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test08_SmartPointer.cpp">
+    <ClCompile Include="test08_PrimitiveFumcTempl.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test09_SmartPo.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="test10_Functor.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="test11.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="test12.cpp">
+    <ClCompile Include="test09_NeedSpeFuncTem.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
