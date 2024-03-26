@@ -134,7 +134,6 @@
     <ClCompile Include="test04_3_PointMain.cpp" />
     <ClCompile Include="test05_2_ArrTempl.h" />
     <ClCompile Include="test05_3_BoundArrMain.cpp" />
-    <ClCompile Include="test06_MainTest.cpp" />
     <ClCompile Include="test07_Homework.cpp" />
   </ItemGroup>
   <ItemGroup>

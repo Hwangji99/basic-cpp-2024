@@ -36,9 +36,6 @@
     <ClCompile Include="test05_3_BoundArrMain.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test06_MainTest.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="test07_Homework.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
